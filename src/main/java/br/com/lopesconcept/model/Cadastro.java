@@ -21,5 +21,6 @@ public class Cadastro {
     @NotBlank
     private String email;
     private String localizacao;
+    private String mensagem;
 
 }
