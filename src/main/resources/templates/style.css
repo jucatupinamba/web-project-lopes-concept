@@ -6,16 +6,29 @@ body{
     width: 100%;
 }
 
-h1{
+.tituloCentralizado {
     
     text-align: center; 
     color: #FFFFFF;
     
 }
 
+.tituloPrincipal {
+    color:#FFFFFF;
+    padding-left: 20px;
+}
+
+
 p {
     text-align: center;
     color: #FFFFFF;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
 }
 
 #objetivo {
@@ -24,5 +37,23 @@ p {
 }
 
 em strong {
-    color: red;
+    color:  #FF0000;
+}
+
+.principal{
+    padding: 30px;
+}
+
+.itens {
+    font-style: italic;
+    color: #FFFFFF;
+}
+
+.gestão {
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+.imagemMarca{
+    width: 50%;
 }
