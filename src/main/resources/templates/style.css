@@ -1,7 +1,28 @@
 body{
-    background: #CCCCCC;
+    background: #000000;
+}
+
+#backgroundLopes {
+    width: 100%;
+}
+
+h1{
+    
+    text-align: center; 
+    color: #FFFFFF;
+    
 }
 
 p {
     text-align: center;
+    color: #FFFFFF;
+}
+
+#objetivo {
+    font-size: 20px;
+    text-align: center;
+}
+
+em strong {
+    color: red;
 }
