@@ -3,6 +3,10 @@ header{
     padding: 20px 0;
 }
 
+.main {
+    background-color: #000000;
+}
+
 .caixa {
     position: relative;
     width: 940px;
@@ -28,7 +32,45 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    color: #CCCCCC;
+    text-decoration: underline;
+}
+
 #imageLogo{
     width: 20%;
     margin-left: -60px;
+}
+
+.servicos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.servicos li {
+    display:inline-block;
+    text-align:center;
+    width: 30%;
+    vertical-align: middle;
+    background: #CCCCCC;
+    margin: 0 1,8%;
+    padding: 30px 20px;
+    box-sizing:border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: dashed;
+    border-radius: 10px;
+}
+
+.servicos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.button {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #CCCCCC;
+    margin-top: 15px;    
 }
