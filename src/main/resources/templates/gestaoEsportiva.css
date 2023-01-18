@@ -63,6 +63,19 @@ nav a:hover {
     border-radius: 10px;
 }
 
+.servicos li:hover {
+    border: solid 2px #FFFFFF;
+
+}
+
+.sevicos li:active {
+    border: solid 3px #ec0808;
+}
+
+.servicos li:hover h2 {
+    font-size: 34px;
+}
+
 .servicos h2 {
     font-size: 30px;
     font-weight: bold;
