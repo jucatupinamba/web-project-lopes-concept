@@ -4,7 +4,7 @@ header{
 }
 
 .main {
-    background-color: #000000;
+    background-image: url("images/23627.jpg");
 }
 
 .caixa {
@@ -86,4 +86,18 @@ nav a:hover {
     font-weight: bold;
     background-color: #CCCCCC;
     margin-top: 15px;    
+}
+
+footer {
+    background-color: #000000;
+    text-align: center;
+    border-top: 3px #FFFFFF;
+    color:#FFFFFF;
+    padding: 40px 0;
+}
+
+.coprigth {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
