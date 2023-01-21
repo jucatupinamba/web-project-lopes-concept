@@ -1,59 +1,120 @@
-body{
+header{
     background: #000000;
+    padding: 20px 0;
 }
 
-#backgroundLopes {
-    width: 100%;
+.main {
+    background-image: url("images/23627.jpg");
 }
 
-.tituloCentralizado {
-    
-    text-align: center; 
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 40px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
     color: #FFFFFF;
-    
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
 
-.tituloPrincipal {
-    color:#FFFFFF;
-    padding-left: 20px;
+nav a:hover {
+    color: #CCCCCC;
+    text-decoration: underline;
 }
 
-
-p {
-    text-align: center;
-    color: #FFFFFF;
-}
-
-ul {
-    display: inline-block;
-    vertical-align: top;
+#imageLogo{
     width: 20%;
-    margin-right: 15%;
+    margin-left: -60px;
 }
 
-#objetivo {
-    font-size: 20px;
+.servicos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.servicos li {
+    display:inline-block;
+    text-align:center;
+    width: 30%;
+    vertical-align: middle;
+    background: #CCCCCC;
+    margin: 0 1,8%;
+    padding: 30px 20px;
+    box-sizing:border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: dashed;
+    border-radius: 10px;
+}
+
+.servicos li:hover {
+    border: solid 2px #FFFFFF;
+
+}
+
+.sevicos li:active {
+    border: solid 3px #ec0808;
+}
+
+.servicos li:hover h2 {
+    font-size: 34px;
+}
+
+.servicos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.button {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #CCCCCC;
+    margin-top: 15px;    
+}
+
+footer {
+    background-color: #000000;
     text-align: center;
+    border-top: 3px #FFFFFF;
+    color:#FFFFFF;
+    padding: 40px 0;
 }
 
-em strong {
-    color:  #FF0000;
-}
-
-.principal{
-    padding: 30px;
-}
-
-.itens {
-    font-style: italic;
+.coprigth {
     color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
 
-.gestão {
-    background: #FFFFFF;
-    padding: 20px;
+main {
+    width: 940px;
+    margin: 0 auto;
 }
 
-.imagemMarca{
-    width: 50%;
+.formulario {
+    margin: 40px 0;
+}
+
+.formulario label {
+    display: block
+}
+
+.formulario input {
+    display: block;
 }
