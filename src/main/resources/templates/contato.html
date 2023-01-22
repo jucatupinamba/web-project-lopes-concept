@@ -29,12 +29,27 @@
                 <input type="text" id="email">
 
                 <label for="telefone">Telefone</label>
-                <input type="number" id="telefone">
-
+                <input type="text" id="telefone">
+                
                 <label for="mensagem">Mensagem</label>
-                <input type="text" id="mensagem">
+                <textarea cols="70" rows="10" id="mensagem"></textarea>
 
-                <input type="submit" value="Enviar Formulário">
+                <div>
+                    <p>Eu sou</p>
+
+                    <label for="radio-piloto">Piloto</label>
+                    <input type="radio" name="tipoUsuario" value="piloto" id="radio-piloto">
+
+                    <label for="radio-parceiro">Parceiro</label>
+                    <input type="radio" name="tipoUsuario" value="parceiro" id="radio-parceiro">
+
+                    <label for="radio-usuario">Usuário</label>
+                    <input type="radio" name="tipoUsuario" value="usuario" id="radio-usuario">
+
+                    <input type="submit" value="Enviar Formulário">
+                </div>
+
+                <label><input type="checkbox">Gostaria de receber novidades por email?</label>
             </form>
 
         </main>

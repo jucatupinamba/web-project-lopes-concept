@@ -112,9 +112,14 @@ main {
 }
 
 .formulario label {
-    display: block
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
 }
 
 .formulario input {
     display: block;
+    margin: 20px;
+    padding: 10px 25px;
+    width: 50%;
 }
