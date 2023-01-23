@@ -3,40 +3,59 @@
     <head>
         <meta charset = "UTF-8">
         <title>Lopes Concept Gestão Esportiva</title>
-        <link rel="stylesheet" href="style-home.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css">
     </head>
 
     <body>
-        <header><h1 class="tituloPrincipal">Lopes Concept</h1></header>
-        <img id="backgroundLopes" src="images/bgLopes.jpeg";>
+        <header>
+            <div class="caixa">
+                <h1><img src="images/logo.jpeg" alt="logo" id="imageLogo"></h1>
+                
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gestaoEsportiva.html">Gestão</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <img src="images/bgLopes.jpeg" class="bgLopes">
+        
+        <main>
+            <section class="principal">
+                <h2 class="tituloCentralizado">Quem somos</h2>
 
-        <div class="principal">
-            <h2 class="tituloCentralizado">Quem somos</h2>
+                <p><strong>Lopes Concept</strong> é uma empresa brasileira, sediada na cidade de São Paulo. Liderada pelos empresários 
+                Wellington Ferreira Lopes e Juliana Martins de Oliveira.</p>
 
-            <p><strong>Lopes Concept</strong> é uma empresa brasileira, sediada na cidade de São Paulo. Liderada pelos empresários 
-            Wellington Ferreira Lopes e Juliana Martins de Oliveira.</p>
+                <p>Com 20 anos no mercado esportivo, somos reconhecidos por revelar talentos e apoiadores.
+                Trata-se de uma empresa especializada em gerenciar ligas e eventos esportivos em 360°.</p>
 
-            <p>Com 20 anos no mercado esportivo, somos reconhecidos por revelar talentos e apoiadores.
-            Trata-se de uma empresa especializada em gerenciar ligas e eventos esportivos em 360°.</p>
+                <p id="objetivo"><em><strong>Nós buscamos unir nosso conhecimento, experiências e relacionamento no mercado esportivo para beneficiar atletas,
+                patrocinadores, categorias e mídias.</strong></em></p>
 
-            <p id="objetivo"><em><strong>Nós buscamos unir nosso conhecimento, experiências e relacionamento no mercado esportivo para beneficiar atletas,
-            patrocinadores, categorias e mídias.</strong></em></p>
+                <p>Determinados a vencer, acreditamos no trabalho em equipe, nas parcerias e no relacionamento de longo prazo.
+                Nossa gestão é embasada na ética, respeito, transparência e na seriedade de negócios.</p>
+                </section>
 
-            <p>Determinados a vencer, acreditamos no trabalho em equipe, nas parcerias e no relacionamento de longo prazo.
-            Nossa gestão é embasada na ética, respeito, transparência e na seriedade de negócios.</p>
-        </div>
+            <section class="gestao">
+                <h3 class="tituloCentralizado">Gestão Esportiva</h3>
 
-        <div class="gestao">
-            <h3 class="tituloCentralizado">Gestão Esportiva</h3>
-
-            <ul>
-                <li class="itens">Categorias e Ligas Esportivas</li>
-                <li class="itens">Gestão de Imagem</li>
-                <li class="itens">Negociação de Contratos</li>
-                <li class="itens">Patrocínio</li>
-                <li class="itens">Marketing Esportivo</li>
-            </ul>
-            <img src="images/marcaLopes.jpeg"; class="imagemMarca">
-        </div>
+                <ul>
+                    <li class="itens">Categorias e Ligas Esportivas</li>
+                    <li class="itens">Gestão de Imagem</li>
+                    <li class="itens">Negociação de Contratos</li>
+                    <li class="itens">Patrocínio</li>
+                    <li class="itens">Marketing Esportivo</li>
+                </ul>
+                <img src="images/marcaLopes.jpeg"; class="imagemMarca">
+            </section>
+        </main>
+            <footer>
+                <img src="images/Paper-pencil.png" alt="Logo do Rodape">
+                <p class="copright">&copy;All Rights reserved Lopes Concept®</p>
+            </footer>
     </body>
 </html>
