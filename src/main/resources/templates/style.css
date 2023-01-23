@@ -111,15 +111,57 @@ main {
     margin: 40px 0;
 }
 
-.formulario label {
+.formulario legend {
     display: block;
-    font-size: 20px;
+    font-size: 17px;
     margin: 0 0 10px;
 }
 
-.formulario input {
+.formulario label {
+    display: block;
+    font-size: 17px;
+    margin: 0 0 10px;
+}
+
+.enviar {
+    width: 30%;
+    padding: 15px 0;
+    background: #CCCCCC;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkgray;
+    transform: scale(1.2);
+}
+
+.input-padrao { 
     display: block;
     margin: 20px;
     padding: 10px 25px;
     width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+tbody td, thead tr th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
 }

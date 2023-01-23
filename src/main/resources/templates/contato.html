@@ -23,38 +23,65 @@
         <main>
             <form class="formulario">
                 <label for="nome">Nome e Sobrenome</label>
-                <input type="text" id="nome">
+                <input type="text" id="nome" class="input-padrao" required>
 
                 <label for="email">Email</label>
-                <input type="text" id="email">
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
 
                 <label for="telefone">Telefone</label>
-                <input type="text" id="telefone">
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
                 
                 <label for="mensagem">Mensagem</label>
-                <textarea cols="70" rows="10" id="mensagem"></textarea>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
 
-                <div>
-                    <p>Eu sou</p>
+                <fieldset>
+                    <legend>Eu sou</legend>
 
-                    <label for="radio-piloto">Piloto</label>
-                    <input type="radio" name="tipoUsuario" value="piloto" id="radio-piloto">
+                    <label for="radio-piloto"><input type="radio" name="tipoUsuario" value="piloto" id="radio-piloto" checked>Piloto</label>
+                    
+                    <label for="radio-parceiro"><input type="radio" name="tipoUsuario" value="parceiro" id="radio-parceiro">Parceiro</label>
+                    
+                    <label for="radio-usuario"><input type="radio" name="tipoUsuario" value="usuario" id="radio-usuario">Usuário</label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Qual melhor forma de contato?</legend>
+                    <select>
+                        <option>Email</option>
+                        <option>Ligação</option>
+                        <option>Whatsapp</option>
+                    </select>
+                </fieldset>
 
-                    <label for="radio-parceiro">Parceiro</label>
-                    <input type="radio" name="tipoUsuario" value="parceiro" id="radio-parceiro">
-
-                    <label for="radio-usuario">Usuário</label>
-                    <input type="radio" name="tipoUsuario" value="usuario" id="radio-usuario">
-
-                    <input type="submit" value="Enviar Formulário">
-                </div>
-
-                <label><input type="checkbox">Gostaria de receber novidades por email?</label>
+                <label class="checkbox"><input type="checkbox" checked>Gostaria de receber novidades por email?</label>
+                    
+                <input type="submit" value="Enviar Formulário" class="enviar">
             </form>
+
+            <table>
+                <thead>
+                    <th>Eventos</th>
+                    <th>Data</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fórmula Inter Day</td>
+                        <td>02/02/2023</td>
+                    </tr>
+                    <tr>
+                        <td>Jungle Fight</td>
+                        <td>03/04/2023</td>
+                    </tr>
+                    <tr>
+                        <td>Corrida Fórmula Inter</td>
+                        <td>18/04/2023</td>
+                    </tr>
+                </tbody>
+            </table>
 
         </main>
         <footer>
-            <img src="images/Paper-pencil.png">
+            <img src="images/Paper-pencil.png" alt="Logo do Rodape">
             <p class="copright">&copy;All Rights reserved Lopes Concept®</p>
         </footer>
     </body>
