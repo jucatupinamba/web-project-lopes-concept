@@ -3,6 +3,10 @@ header{
     padding: 20px 0;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .main {
     background-image: url("images/23627.jpg");
 }
@@ -164,4 +168,40 @@ thead {
 tbody td, thead tr th{
     border: 1px solid #000000;
     padding: 8px 15px;
+}
+
+/* CSS página inicial */
+
+.tituloPrincipal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.equipe {
+    width: 250px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
 }
