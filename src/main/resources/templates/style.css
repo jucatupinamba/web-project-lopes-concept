@@ -194,6 +194,7 @@ tbody td, thead tr th{
 
 .principal p {
     margin: 0 0 1em;
+    text-align: justify;
 }
 
 .principal strong {
@@ -268,14 +269,20 @@ tbody td, thead tr th{
 }
 
 @media screen and (max-width: 480px){
-    .caixa, .principal, .gestao, .conteudoGestao, .main, .video, .mapa, .mapa-conteudo,
-     .imagemGestao, .imagemGestao:hover{
+    .caixa, .principal, .gestao, .conteudoGestao, .main, .mapa, .mapa-conteudo
+     {
         width: auto;
     }
 
-    .imageLogo {
+    .imageLogo, .bgLopes, .video, .imagemGestao, .imagemGestao:hover, .itens{
         width: 100%;
-        
+        text-align: center;
+        display: inline;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
     }
 
     .navegador-itens {
