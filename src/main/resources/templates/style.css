@@ -266,3 +266,20 @@ tbody td, thead tr th{
 .imagemGestao:hover {
     opacity: 100%;
 }
+
+@media screen and (max-width: 480px){
+    .caixa, .principal, .gestao, .conteudoGestao, .main, .video, .mapa, .mapa-conteudo,
+     .imagemGestao, .imagemGestao:hover{
+        width: auto;
+    }
+
+    .imageLogo {
+        width: 100%;
+        
+    }
+
+    .navegador-itens {
+        width: 100%;
+        align-items: baseline;
+    }
+}
